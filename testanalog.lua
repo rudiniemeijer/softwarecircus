@@ -1,3 +1,7 @@
+-- testanalog.lua
+-- Copyright (c) 2017 Rudi Niemeijer
+-- MIT license
+
 function measure() 
   s = adc.read(0)
   print("Measured value of S is "..s)
