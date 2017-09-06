@@ -1,6 +1,6 @@
 # softwarecircus
 ## Install drivers
-In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows (CP210x_Windows_Drivers.zip) and OS X. 
+In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows (CP210x_Windows_Drivers.zip) and OS X (SiLabsUSBDriverDisk.dmg). 
 
 ## Integrated development environment
 A complete IDE is available, in the form of ESPlorer.jar, a Java program. Java needs to be installed on your computer.
