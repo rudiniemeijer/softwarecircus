@@ -1,3 +1,7 @@
+-- wifi.lua
+-- Copyright (c) 2017 Rudi Niemeijer
+-- MIT license
+
 -- NodeMCU remembers this, even after power-off or reset
 -- so no need to run this more than once
 wifi.setmode(wifi.STATION)
