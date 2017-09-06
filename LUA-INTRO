@@ -1,4 +1,4 @@
-# Variables and typing
+#Variables and typing
 variable = value
 local a = 10
 b = true
