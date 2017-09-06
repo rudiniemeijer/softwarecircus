@@ -1,3 +1,7 @@
+-- blink.lua
+-- Copyright (c) 2017 Rudi Niemeijer
+-- MIT license
+
 delaytime= 1000 -- ms between on and off
 ledpin = 0   -- D0 (there is also an led at D4)
 ledon = 0   -- state of the led
