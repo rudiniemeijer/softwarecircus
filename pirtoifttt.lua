@@ -1,3 +1,7 @@
+-- pirtoifttt.lua
+-- Copyright (c) 2017 Rudi Niemeijer
+-- MIT license
+
 ledpin, pirsensorpin = 4, 2
 gpio.mode(pirsensorpin, gpio.INT, gpio.PULLUP)
 gpio.mode(ledpin, gpio.OUTPUT)
