@@ -1,4 +1,4 @@
--- NodeMCU remebers this, even after power-off or reset
+-- NodeMCU remembers this, even after power-off or reset
 -- so no need to run this more than once
 wifi.setmode(wifi.STATION)
 station_cfg = {}
@@ -13,4 +13,6 @@ wifi.sta.connect()
 -- print(wifi.sta.getip())
 
 -- Call a webhook, just for fun
-http.get("http://maker.ifttt.com/trigger/testwifi/with/key/cKOv_7WOkun-XfI22a5Duw-yhCiJF61C-dn4NvuU-LI?value1=" .. wifi.sta.getmac() .. "&value2=" .. wifi.sta.getip())
+tmr.alarm(6, 30000, tmr.ALARM_AUTO, function() 
+  http.get("http://maker.ifttt.com/trigger/testwifi/with/key/cKOv_7WOkun-XfI22a5Duw-yhCiJF61C-dn4NvuU-LI?value1=" .. wifi.sta.getmac())
+end)
