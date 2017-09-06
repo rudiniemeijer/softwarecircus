@@ -1,3 +1,7 @@
+-- resistancetothingspeak.lua
+-- Copyright (c) 2017 Rudi Niemeijer
+-- MIT license
+
 URL = "http://api.thingspeak.com/update?api_key="
 
 -- Change this
