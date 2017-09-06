@@ -1,9 +1,9 @@
 # softwarecircus
 ## Install drivers
-In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows (CP210x_Windows_Drivers.zip) and OS X (SiLabsUSBDriverDisk.dmg). 
+In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows (CP210x_Windows_Drivers.zip) and OS X (SiLabsUSBDriverDisk.dmg). Install on your favorite platform and you're good to go.
 
 ## Integrated development environment
-A complete IDE is available, in the form of ESPlorer.jar, a Java program. Java needs to be installed on your computer.
+A complete IDE is available, in the form of ESPlorer.jar, a Java program. Java needs to be installed on your computer. If nothing happens when you doubleclick ESPlorer.jar, you need to install Java.
 
 ## An introduction to Lua
 In order to give you a running start, I've written a small introductory leaflet for Lua, called LUA-INTRO.md.
