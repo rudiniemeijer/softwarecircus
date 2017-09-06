@@ -1,6 +1,11 @@
 # softwarecircus
-Lua example programs for the NodeMCU used at the Software Circus 2017 Cloudbusting event
+## Install drivers
+In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows and OS X. 
 
+## Integrated development environment
+A complete IDE is available, in the form of ESPlorer.jar, a Java program. Java needs to be installed on your computer.
+
+## Lua example programs for the NodeMCU used at the Software Circus 2017 Cloudbusting event
 * blink.lua  
 Flashes the D0 led on the NodeMCU with a 1 Hz frequency.
 * wifi.lua  
