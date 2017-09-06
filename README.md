@@ -19,5 +19,5 @@ Prints a message onscreen if a PIR sensor fires.
 Calls a webhook on IFTTT.com once a connected PIR sensor fires. Name of the IFTTT applet and the corresponding API KEY need to be filled in.
 * `testanalog.lua`  
 Print the current value of the analog port on screen.  
-* `resistancetothingspeak.lua` 
+* `resistancetothingspeak.lua`   
 Calls a webhook on ThingSpeak.com with the current value of the analog port. The API KEY of the ThingSpeak channels needs to be filled in.
