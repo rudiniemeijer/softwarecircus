@@ -2,7 +2,7 @@
 ## About  
 The files in this repository are part of the workshop *Build your own Internet of Things appliance*, on *Software Circus 2017 Cloudbusting*. Attendees of the workshop create their own real-life IoT appliance using a microcontroller called NodeMCU and some clever software that connects to the internet.
 
-![Image of a NodeMCU on a breadboard](https://github.com/rudiniemeijer/softwarecircus/blob/master/nodemcu-on-breadboard-kpn.jpg)
+![Image of a NodeMCU on a breadboard](https://github.com/rudiniemeijer/softwarecircus/blob/master/nodemcu-on-breadboard.jpg)
 
 In order to program the NodeMCU, a computer with USB is required (modern laptops with USB-C require a USB 2.0/3.0 hub, for instance the MacBook Pro). Drivers and an IDE need to be installed before programming can take off.
 
