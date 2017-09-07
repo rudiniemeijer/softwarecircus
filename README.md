@@ -1,4 +1,7 @@
 # softwarecircus
+
+[https://github.com/rudiniemeijer/softwarecircus/blob/master/nodemcu-on-breadboard-kpn.jpg]
+
 ## Install drivers
 In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows (CP210x_Windows_Drivers.zip) and OS X (SiLabsUSBDriverDisk.dmg). Install on your favorite platform and you're good to go.
 
