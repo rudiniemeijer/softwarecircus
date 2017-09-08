@@ -1,4 +1,8 @@
 # softwarecircus
+## Preparations before the workshop
+* Install the USB driver on your laptop (see "Install driver")
+* Download the IDE (see "Integrated development environment")
+
 ## About  
 The files in this repository are part of the workshop *Build your own Internet of Things appliance*, on *Software Circus 2017 Cloudbusting*. Attendees of the workshop create their own real-life IoT appliance using a microcontroller called NodeMCU and some clever software that connects to the internet.
 
@@ -10,7 +14,7 @@ In order to program the NodeMCU, a computer with USB is required (modern laptops
 In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows ([CP210x_Windows_Drivers.zip](https://github.com/rudiniemeijer/softwarecircus/blob/master/CP210x_Windows_Drivers.zip)) and OS X ([SiLabsUSBDriverDisk.dmg](https://github.com/rudiniemeijer/softwarecircus/blob/master/SiLabsUSBDriverDisk.dmg)). Install on your favorite platform and you're good to go.
 
 ## Integrated development environment
-A complete IDE is available, in the form of ESPlorer.jar, a Java program. Java needs to be already installed on your computer though. If nothing happens when you doubleclick ESPlorer.jar, you need to install Java as well.
+A complete IDE is available, in the form of [ESPlorer.jar](https://github.com/rudiniemeijer/softwarecircus/blob/master/ESPlorer.jar), a Java program. Java needs to be already installed on your computer though. If nothing happens when you doubleclick ESPlorer.jar, you need to install Java as well.
 
 ## An introduction to Lua
 In order to give you a running start, I've written a small introductory leaflet for Lua, called LUA-INTRO.md.
