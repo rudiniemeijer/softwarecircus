@@ -3,7 +3,7 @@
 * Install the USB driver on your laptop (see "Install driver")
 * Download the IDE (see "Integrated development environment")  
 
-Need wifi? We've got you covered. In the hangar, that is. You can use the SoftwareCircus2017 hotspot, with password _cloudbusting_.
+Need wifi to download the driver and IDE? We've got you covered. At least in the hangar, that is. You can use the _SoftwareCircus2017_ hotspot, with password _cloudbusting_.
 
 ## About  
 The files in this repository are part of the workshop *Build your own Internet of Things appliance*, on *Software Circus 2017 Cloudbusting*. Attendees of the workshop create their own real-life IoT appliance using a microcontroller called NodeMCU and some clever software that connects to the internet.
