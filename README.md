@@ -19,7 +19,7 @@ In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here
 A complete IDE is available, in the form of [ESPlorer.jar](https://github.com/rudiniemeijer/softwarecircus/blob/master/ESPlorer.jar), a Java program. Java needs to be already installed on your computer though. If nothing happens when you doubleclick ESPlorer.jar, you need to install Java as well.
 
 ## An introduction to Lua
-In order to give you a running start, I've written a small introductory leaflet for Lua, called LUA-INTRO.md.
+In order to give you a running start, I've written a small introductory leaflet for Lua, called [LUA-INTRO.md](https://github.com/rudiniemeijer/softwarecircus/blob/master/LUA-INTRO.md).
 
 ## Lua example programs for the NodeMCU used at the Software Circus 2017 Cloudbusting event
 * `blink.lua`  
