@@ -7,4 +7,4 @@ function measure()
   print("Measured value of S is "..s)
 end
 
-tmr.alarm(3, 1000, tmr.ALARM_AUTO, measure) -- measure every 2 seconds
+tmr.alarm(3, 2000, tmr.ALARM_AUTO, measure) -- measure every 2 seconds
