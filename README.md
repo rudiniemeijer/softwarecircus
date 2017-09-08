@@ -5,6 +5,9 @@
 
 Need wifi to download the driver and IDE? We've got you covered. At least in the hangar, that is. You can use the _SoftwareCircus2017_ hotspot, with password _cloudbusting_.
 
+## The Book
+If want to learn more about the Internet of Things you could decide to buy [my book](https://www.bol.com/nl/p/zelf-iot-toepassing-maken-alledaagse-voorwerpen-probleemloos-met-internet-of-things-verbinden/9200000074414682/?suggestionType=featured_product&suggestedFor=zelf%20een%20i&originalSearchContext=media_all&originalSection=main). Greatly appreciated.
+
 ## About  
 The files in this repository are part of the workshop *Build your own Internet of Things appliance*, on *Software Circus 2017 Cloudbusting*. Attendees of the workshop create their own real-life IoT appliance using a microcontroller called NodeMCU and some clever software that connects to the internet.
 
