@@ -6,8 +6,8 @@
 -- so no need to run this more than once
 wifi.setmode(wifi.STATION)
 station_cfg = {}
-station_cfg.ssid = "softwarecircus"
-station_cfg.pwd = "toomanysecrets"
+station_cfg.ssid = "SoftwareCircus2017"
+station_cfg.pwd = "cloudbusting"
 station_cfg.save = true
 wifi.sta.config(station_cfg)
 wifi.sta.connect()
