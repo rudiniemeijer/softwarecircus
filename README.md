@@ -37,3 +37,9 @@ Calls a webhook on IFTTT.com once a connected PIR sensor fires. Name of the IFTT
 Print the current value of the analog port on screen.  
 * `resistancetothingspeak.lua`   
 Calls a webhook on ThingSpeak.com with the current value of the analog port. The API KEY of the ThingSpeak channels needs to be filled in.
+
+## Using init.lua
+If you want to auto execute a lua script, you can put a `dofile("yourscript.lua")` inside a script that you name `init.lua`. Everytime you reboot the NodeMCU, `init.lua` is executed, which in turn runs your script. Be very careful with this feature though, as that auto execute happens in microseconds. If your script contains a bug that reboots the NodeMCU, you end up with an endless loop of rebooting.
+
+## (Re) flashing NodeMCU firmware
+It happens that a NodeMCU becomes unresponsive, usually as a result of calling a buggy lua script from an init.lua. You can use the python script `esptool.py` to reflash your NodeMCU, effectively resetting to 'factory' defaults. Examine the `flashamica.sh` shellscript in this repository to see how and what files you need (they're all here as well).
