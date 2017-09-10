@@ -5,6 +5,9 @@
 
 Need wifi to download the driver and IDE? We've got you covered. At least in the hangar, that is. You can use the _SoftwareCircus2017_ hotspot, with password _cloudbusting_.
 
+## IF This Then That
+Create an account for the IFTTT.com service. You'll need a (free) account in order to create applets. Applets are defined by an _incoming_ and an _outgoing_ service. We'll be using Webhook as the incoming service, and a service you'll select as the outgoing service. That could be sending a GMail, sending a tweet via Twitter, switching on a LIFX light, etc. After you've created an applet, click on the Webhook icon and click on the settings icon to look up the API key. The name you've given your applet, plus the API key, are all that is needed to get the `pirtoifttt.lua` script running.
+
 ## The Book
 If want to learn more about the Internet of Things you could decide to buy [my book](https://www.bol.com/nl/p/zelf-iot-toepassing-maken-alledaagse-voorwerpen-probleemloos-met-internet-of-things-verbinden/9200000074414682/?suggestionType=featured_product&suggestedFor=zelf%20een%20i&originalSearchContext=media_all&originalSection=main). Greatly appreciated.
 
