@@ -16,7 +16,7 @@ The files in this repository are part of the workshop *Build your own Internet o
 
 ![Image of a NodeMCU on a breadboard](https://github.com/rudiniemeijer/softwarecircus/blob/master/nodemcu-on-breadboard.jpg)
 
-In order to program the NodeMCU, a computer with USB is required (modern laptops with USB-C require a USB 2.0/3.0 hub, for instance the MacBook Pro). Drivers and an IDE need to be installed before programming can take off. Attendees are encouraged to do install the appropriate driver and download the IDE (and if nessecary, Java) beforehand, to prevent wifi bandwidth degradation during the workshop.
+In order to program the NodeMCU, a computer with USB is required (modern laptops with USB-C require a USB 2.0/3.0 hub, for instance the MacBook Pro). Drivers and an IDE need to be installed before programming can take off. Attendees are encouraged to install the appropriate driver and download the IDE (and if nessecary, Java) beforehand, to prevent wifi bandwidth degradation during the workshop.
 
 ## Install driver
 In order to communicate with a NodeMCU via USB, a driver is needed. Drivers here are for Windows ([CP210x_Windows_Drivers.zip](https://github.com/rudiniemeijer/softwarecircus/blob/master/CP210x_Windows_Drivers.zip)) and OS X ([SiLabsUSBDriverDisk.dmg](https://github.com/rudiniemeijer/softwarecircus/blob/master/SiLabsUSBDriverDisk.dmg)). Install on your favorite platform and you're good to go. Word is, you don't need a driver with Linux, as it's part of the distro. If you want to share your milage, please contact me and I'll put your notes here.
