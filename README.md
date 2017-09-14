@@ -42,9 +42,10 @@ The second project, _Connect to the internet_, was just about uploading the `wif
 
 The third project, _A sensor that fires_, involved a passive infrared sensor that was connected to the NodeMCU with three wires. One wire connected the PIR sensor to the USB power line of the NodeMCU, another connected the grounds of PIR sensor and NodeMCU. Finally, the output of the PIR sensor was connected to the pin marked _d2_ on the NodeMCU. At the event, we found out that some NodeMCU had faulty silkscreen, in that there were _two_ datalines marked _d2_: _d0_, _d2_, _d2_, _d3_, etc. THe first _d2_ was actually _d1_, so that the PIR sensor had to be connected to the _second_ _d2_. After downlading `pirtoifttt.lua` and creating an applet at IFTTT with Webhook as incoming service, this part of the code had to be changed:
 
----- Change this
---APPLET = "put the name of the IFTTT applet here"
---THE_API_KEY = "put the API key from IFTTT here"
+```-- Change this
+APPLET = "put the name of the IFTTT applet here"
+THE_API_KEY = "put the API key from IFTTT here"
+```
 
 ## Lua example programs for the NodeMCU used at the Software Circus 2017 Cloudbusting event
 * `blink.lua`  
