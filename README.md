@@ -52,6 +52,7 @@ THE_API_KEY = "put the API key from IFTTT here"
 ```
 
 ### Measuring resistance
+![Image of a PIR sensor connected to a NodeMCU](https://github.com/rudiniemeijer/softwarecircus/blob/master/diagram-of-soil-sensor-to-nodemcu.jpg)
 (to be filled in)
 
 ## Lua example programs for the NodeMCU used at the Software Circus 2017 Cloudbusting event
