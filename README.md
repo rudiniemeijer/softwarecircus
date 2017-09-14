@@ -27,6 +27,21 @@ A complete IDE is available, in the form of [ESPlorer.jar](https://github.com/ru
 ## An introduction to Lua
 In order to give you a running start, I've written a small introductory leaflet for Lua, called [LUA-INTRO.md](https://github.com/rudiniemeijer/softwarecircus/blob/master/LUA-INTRO.md).
 
+## Four projects
+During the workshop, four projects were undertaken by the attendees:
+* Make your led flash
+* Connect to the internet
+* A sensor that fires
+* Measuring resistance
+
+The first project, _Make your led flash_, did involve mounting the NodeMCU onto a breadboard, but no further wires or parts. Most attendees got their NodeMCU's on the breadboard just fine, using the schematic above as a guide. Mounting it involves a considerable two-thumbs push, after which the breadboard gives a satisfying 'clack'. Software from `blink.lua` below was uploaded onto the NodeMCU, which resulted in a flashing led. Attendees were challenged to change the delay parameter in order to make the led flash slower and faster. Also, led d0 was discussed and ways to have leds d0 and d4 flash interchangably.
+
+The second project, _Connect to the internet_, was just about uploading the `wifi.lua` script. The wifi parameters were already set straight in the script and will need alteration for you own wifi hotspot situation. The script called a webhook every 30 seconds, with which the MAC address of the NodeMCU was sent, over the internet, through the IFTTT service, to a Google Spreadsheet that was shown a the big screen. Also, with each call to the webhook, an iPhone beeped. With 30 NodeMCU's calling home eacht 30 seconds, a lot of beeping went off.
+
+![Image of a PIR sensor connected to a NodeMCU](https://github.com/rudiniemeijer/softwarecircus/blob/master/diagram-of-pir-to-nodemcu.jpg)
+
+The third project, _A sensor that fires_, involved a passive infrared sensor that was connected to the NodeMCU with three wires. One wire connected the PIR sensor to the USB power line of the NodeMCU, another connected the grounds of PIR sensor and NodeMCU. Finally, the output of the PIR sensor was connected to the pin marked _d2_ on the NodeMCU. At the event, we found out that some NodeMCU had faulty silkscreen, in that there were _two_ datalines marked _d2_: _d0_, _d2_, _d2_, _d3_, etc. THe first _d2_ was actually _d1_, so that the PIR sensor had to be connected to the _second_ _d2_. After downlading `pirtoifttt.lua` and creating an applet at IFTTT with Webhook as incoming service, the variables API_KEY
+
 ## Lua example programs for the NodeMCU used at the Software Circus 2017 Cloudbusting event
 * `blink.lua`  
 Flashes the D0 led on the NodeMCU with a 1 Hz frequency.
